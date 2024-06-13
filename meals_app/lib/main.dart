@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'dart:math';
+
+import 'package:meals_app/dicescreen.dart';
 
 void main() {
-  runApp( MaterialApp(
-    home: Scaffold(body: Center(child: Image.asset("assets/images/dice1.png"),)),
-  ));
+  runApp( const MaterialApp(
+    home:DiceScreen()),
+  );
 }
 
